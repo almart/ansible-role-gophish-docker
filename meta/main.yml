@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: gophish_docker
-  author: warhorse
-  description: Install Gophish in Docker
+  author: almart
+  description: Install Gophish in Docker - updated for new docker network settings
   company: Warhorse
 
   issue_tracker_url: https://github.com/warhorse/ansible-role-gophish-docker/issues
