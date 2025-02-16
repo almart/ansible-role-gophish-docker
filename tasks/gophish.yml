@@ -27,6 +27,6 @@
       ADMIN_TRUSTED_ORIGINS: "{{ gophish_trusted_origins }}"
     networks:
       - name: "{{ gophish_docker_network }}"
-    purge_networks: true
+    networks_cli_compatible: yes
   notify:
     - restart gophish
