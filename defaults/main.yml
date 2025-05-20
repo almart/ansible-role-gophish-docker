@@ -5,7 +5,7 @@ gophish_docker_version: "latest"
 gophish_trusted_origins: ""
 
 gophish_docker_labels: {}
-gophish_docker_image: "gophish/gophish:{{ gophish_docker_version }}"
+gophish_docker_image: "almart/gophish:{{ gophish_docker_version }}"
 gophish_docker_network: "gophish"
 gophish_network_ipam_temp: "{{ gophish_network_ipam | default({}) }}"
 gophish_network_ipam_subnet: "{{
